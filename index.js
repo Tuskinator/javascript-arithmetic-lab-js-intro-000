@@ -11,7 +11,8 @@ function divide(a,b) {
   return a / b
 }
 function increment(n) {
-  return n++
+  var a = n++
+  return a
 }
 function decrement(n) {
   return n--
